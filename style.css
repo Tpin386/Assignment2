@@ -1,0 +1,154 @@
+#header { 
+	max-width: 900px;
+	margin: 0 auto;    
+	padding: 200px;	
+} 
+
+body {
+	background-color: rgb(240,240,240);
+	font-size: 16px;
+	font-family: Candara, Calibri, Cambria;
+	font-weight: 400;
+	margin: 0; 
+	padding: 0;
+}
+
+img {
+	width:100%;
+	height:auto;
+}
+
+/* set colour of normal links */ 
+a {
+	color: rgb(100,100,100);
+}
+
+/* navigation bar style */ 
+.nav {
+	background-color: rgb(240,240,240);
+	overflow: hidden;
+	position: ;
+	border-bottom: 3px solid rgb(240,240,240);
+}
+
+/* navigation bar links are seperated from each other */ 
+.nav1 a {
+	float: left;
+	display: block;
+	color: rgb(100,100,100);
+	text-align: center;
+	text-decoration: none;
+	font-size: 40px;
+	margin: 18px 0;
+	border-bottom: 3px solid transparent;
+	font-weight: 700;
+}
+.nav2 a {
+	float: left;
+	display: block;
+	color: rgb(100,100,100);
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	margin: 18px 0;
+	border-bottom: 3px solid transparent;
+	font-weight: 700;
+}
+
+.nav2 .right a {
+	margin: 18px 26px;
+}
+.nav2 .right a:hover {
+	border-bottom: 3px solid rgb(0, 125, 188);
+}
+
+.nav2 .right {
+	position: absolute;
+	top: 12px;
+	right: 20px;
+}
+
+.nav1 .left a {
+	margin: 18px 26px;
+}
+.nav1 .left a:hover {
+	border-bottom: 3px solid rgb(0, 125, 188);
+}
+
+.nav1 .left{
+	position: absolute;
+	top: 50px;
+	left: 200px;
+}
+
+.text1 { 
+	position: absolute; 
+	visibility: visible; 
+	left: 230px; 
+	top: 100px; 
+	z-index: 200; 
+} 
+
+.image2 { 
+	position: absolute; 
+	visibility: visible; 
+	left: 50px; 
+	top: 50px; 
+}
+.image3 { 
+	position: absolute; 
+	visibility: visible; 
+	left: 525px; 
+	top: 500px; 
+}
+
+.textfrance { 
+	position: absolute; 
+	visibility: visible; 
+	font-family: Candara, Calibri, Cambria;
+	font-weight: 400;
+	font-size: 18px;
+	left: 260px; 
+	top: 480px; 
+}
+
+.textuk { 
+	position: absolute; 
+	visibility: visible; 
+	font-family: Candara, Calibri, Cambria;
+	font-weight: 400;
+	font-size: 18px;
+	left: 260px; 
+	top: 650px; 
+}
+
+.textamerica { 
+	position: absolute; 
+	visibility: visible; 
+	font-family: Candara, Calibri, Cambria;
+	font-weight: 400;
+	font-size: 18px;
+	left: 260px; 
+	top: 830px; 
+}
+
+.textaus { 
+	position: absolute; 
+	visibility: visible; 
+	font-family: Candara, Calibri, Cambria;
+	font-weight: 400;
+	font-size: 18px;
+	left: 735px; 
+	top: 480px; 
+}
+
+.textindia { 
+	position: absolute; 
+	visibility: visible; 
+	font-family: Candara, Calibri, Cambria;
+	font-weight: 400;
+	font-size: 18px;
+	left: 735px; 
+	top: 660px;
+}
+
